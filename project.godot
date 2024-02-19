@@ -13,3 +13,7 @@ config_version=5
 config/name="Godot-Occlusion-Portals"
 config/features=PackedStringArray("4.2")
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/occlusion-portals/plugin.cfg")
