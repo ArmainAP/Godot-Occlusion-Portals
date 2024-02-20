@@ -11,8 +11,17 @@ config_version=5
 [application]
 
 config/name="Godot-Occlusion-Portals"
+run/main_scene="res://demo_scene.tscn"
 config/features=PackedStringArray("4.2")
 config/icon="res://icon.png"
+
+[debug]
+
+gdscript/warnings/untyped_declaration=2
+gdscript/warnings/unsafe_property_access=2
+gdscript/warnings/unsafe_method_access=2
+gdscript/warnings/unsafe_cast=2
+gdscript/warnings/unsafe_call_argument=2
 
 [editor_plugins]
 

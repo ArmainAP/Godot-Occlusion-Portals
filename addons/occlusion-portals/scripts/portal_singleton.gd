@@ -1,8 +1,9 @@
 class_name PortalSingleton extends Node
 
+static var PlayerWorld = 0
+
 static var _self : PortalSingleton = null
 static var _portals := {}
-
 
 static func register_portal(in_portal : Portal, overwrite := false) -> bool:
 	if !is_instance_valid(in_portal):
@@ -22,3 +23,9 @@ static func unregister_portal(in_portal : Portal) -> bool:
 		return false;
 	_portals.erase(in_portal.world)
 	return true
+
+
+static func get_portal(in_portal_id : int) -> Portal:
+	if _portals.has(in_portal_id):
+		return _portals[in_portal_id]
+	return null
