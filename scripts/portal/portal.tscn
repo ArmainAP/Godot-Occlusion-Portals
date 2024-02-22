@@ -1,7 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://bydencqvs0d68"]
 
-[ext_resource type="Script" path="res://addons/occlusion-portals/scripts/portal/portal.gd" id="1_ux1lc"]
-[ext_resource type="Script" path="res://addons/occlusion-portals/scripts/portal/portal_area.gd" id="2_kawkt"]
+[ext_resource type="Script" path="res://addons/Godot-Occlusion-Portals/scripts/portal/portal.gd" id="1_ux1lc"]
+[ext_resource type="Script" path="res://addons/Godot-Occlusion-Portals/scripts/portal/portal_area.gd" id="2_kawkt"]
+
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_7n6p0"]
 size = Vector3(1, 1, 0)
